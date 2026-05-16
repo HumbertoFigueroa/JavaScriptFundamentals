@@ -17,3 +17,9 @@ function checkCountValue() {
 function displayCount() {
     document.getElementById('countDisplay').innerHTML=count; // Mostrar el conteo en el HTML
     }
+
+    function resetCount() {
+        count = 0;
+        displayCount();
+        alert("El conteo de seguidores ha sido restablecido.");
+    }
